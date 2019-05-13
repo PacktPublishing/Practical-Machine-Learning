@@ -1,38 +1,56 @@
-# Practical-Machine-Learning
+# Practical Machine Learning
 
-This book is best for professional data scientists or wanting-to-be data scientists who are looking at learning the fundamentals of Machine Learning Techniques and the most efficient ways of applying and implementing these machine learning techniques on large datasets using the most relevant machine learning frameworks and tools on or off Hadoop platform, given the problem definition, the hands-on way. The readers are expected to have basic programming skills in java and knowledge of any scripting languages will be a bonus. 
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/practical-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781784399689 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9781784399689.png" alt="Practical Machine Learning" height="256px" align="right"></a>
 
-This book focuses on exploring all the Machine Learning techniques and some specific behavioral differences or implementation intricacies with the parallel or distributed processing approach. Additionally, for each technique along with a deep dive on internals of each algorithm, example implementations using top and evolving machine learning frameworks and tools like R, SPSS, Apache Mahout, Python, Julia and Spark is explained. This book helps readers master Machine Learning techniques and gain ability to identify and apply appropriate techniques in the given problem context. In the context of large datasets, multi-core cluster based learning, distributed learning, parallel computation tools and libraries and more. The readers will be exposed to a list of machine learning frameworks and for each of the frameworks detailed implementation aspects like function libraries, syntax, installation or set-up and integration with Hadoop (wherever applicable) will be covered.
+This is the code repository for [Practical Machine Learning](https://www.packtpub.com/big-data-and-business-intelligence/practical-machine-learning?utm_source=github&utm_medium=repository&utm_campaign=9781784399689 ), published by Packt.
 
-Until recent past, the machine learning community has assumed sequential algorithms on data that fits in memory. This assumption is no longer realistic for many recent scenarios and has brought in some interesting perspectives to Advanced Machine Learning. Despite this growing interest, there haven’t been many publications on how these solutions integrate with our data management systems.
-The success of data-driven solutions for complex problems with the dropping infrastructure or storage costs has brought focus on large scale machine learning.  Below is a list of topics that will be covered in this book:
-1.	Learn and master platforms, algorithms, and applications for machine learning techniques classified under supervised, unsupervised, semi-supervised, reinforcement and deep learning.
-2.	Analyze and prepare large data sets and design your own machine learning system
-3.	Take a deep dive into each of the machine learning algorithm and learn how to implement in more than one ways (Explore alternative implementation platforms and learn how to rationalize which one to choose), given the problem context. 
-4.	For each of the identified platforms, learn how to set-up environment, load large scale data and explore the syntax and understand the implementation nuances.
-5.	How does Machine Learning link with Hadoop? Understand Hadoop as a platform for distributed and parallel processing paradigm.
-6.	For each of the Machine Learning Technique, take a deep dive into the internals of the concept and implement using one or more of the identified tools or libraries that includes Mahout, R, Python, SPSS and Spark. For each of the libraries or framework:
-  a.	Learn to set-up the environment
-  b.	Develop machine learning programs for real world examples,
-  c.	Deploy and execute these programs on large data sets in Hadoop (wherever applicable) to identify precise patterns and predict the outcomes.
+**Tackle the real-world complexities of modern machine learning with innovative and cutting-edge techniques**
 
-This book covers all important machine learning techniques that include: 
-1. Chapter 5: Decision Tree based learning methods - Decision trees using C4.5, C5.0 and Random Forests
-2. Chapter 6: Association rule based learning methods - Apriori and FP-growth
-2. Chapter 7: Instance based learning methods - K-Nearest Neighbors
-3. Chapter 7: Kernel based learning methods - Supprt Vector Machines
-5. Chapter 8: Clustering based learning methods - K means clustering
-6. Chapter 9: Bayesian learning methods - Naive Bayes
-7. Chapter 10: Regression learning methods - Linear and Logistic regression
-8. Chapter 11: Deep learning methods
-9. Chapter 12: Reinforcement learning methods - Q-learning
-10. Chapter 13: Ensemble methods - Bosstong (Ada, Gradient), Random forests
+## What is this book about?
+This book explores an extensive range of machine learning techniques uncovering hidden tricks and tips for several types of data using practical and real-world examples. While machine learning can be highly theoretical, this book offers a refreshing hands-on approach without losing sight of the underlying principles. Inside, a full exploration of the various algorithms gives you high-quality guidance so you can begin to see just how effective machine learning is at tackling contemporary challenges of big data.
 
-For each of the learning methods the implementation source code is provided in the following programing languauges
-1. Apache Mahout
-2. R
-3. Spark - MLib
-4. Python (sckit-learn)
-5. Julia (Java & Scala based)
+This book covers the following exciting features:
+* Implement a wide range of algorithms and techniques for tackling complex data 
+* Get to grips with some of the most powerful languages in data science, including R, Python, and Julia 
+* Harness the capabilities of Spark and Hadoop to manage and process data successfully 
+* Apply the appropriate machine learning technique to address real-world problems 
+* Get acquainted with Deep learning and find out how neural networks are being used at the cutting-edge of machine learning 
+* Explore the future of machine learning and dive deeper into polyglot persistence, semantic data, and more 
 
-The project structure is maintained per programming language wise, further by chapter and then specific algorithm.
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/178439968X) today!
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
+
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
+
+The code will look like the following:
+```
+using PyPlot
+x = linspace(-2pi, 2pi)
+y = sin(x)
+plot(x, y, "--b")
+```
+
+**Following is what you need for this book:**
+This book has been created for data scientists who want to see machine learning in action and explore its real-world application. With guidance on everything from the fundamentals of machine learning and predictive analytics to the latest innovations set to lead the big data revolution into the future, this is an unmissable resource for anyone dedicated to tackling current big data challenges. Knowledge of programming (Python and R) and mathematics is advisable if you want to get started immediately.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
+### Software and Hardware List
+| Chapter | Software required | OS required |
+| -------- | ------------------------------------ | ----------------------------------- |
+| 3 | Hadoop 2.x | Windows, Mac OS X, and Linux (Any) |
+| 4-13 | R (2.15.1), Apache Mahout (0.9), Python(sckit-learn), Julia(0.3.4) and Apache Spark (with Scala 2.10.4) | Windows, Mac OS X, and Linux (Any) |
+
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/Practical_Machine_Learning_ColorImages.pdf).
+
+## Get to Know the Author
+**Sunila Gollapudi**
+Sunila Gollapudi works as Vice President Technology with Broadridge Financial Solutions (India) Pvt. Ltd., a wholly owned subsidiary of the US-based Broadridge Financial Solutions Inc. (BR). She has close to 14 years of rich hands-on experience in the IT services space. She currently runs the Architecture Center of Excellence from India and plays a key role in the big data and data science initiatives. Prior to joining Broadridge she held key positions at leading global organizations and specializes in Java, distributed architecture, big data technologies, advanced analytics, Machine learning, semantic technologies, and data integration tools. Sunila represents Broadridge in global technology leadership and innovation forums, the most recent being at IEEE for her work on semantic technologies and its role in business data lakes. Sunila's signature strength is her ability to stay connected with ever changing global technology landscape where new technologies mushroom rapidly, connect the dots and architect practical solutions for business delivery. A post graduate in computer science, her first publication was on Big Data Datawarehouse solution, Greenplum titled Getting Started with Greenplum for Big Data Analytics, Packt Publishing. She's a noted Indian classical dancer at both national and international levels, a painting artist, in addition to being a mother, and a wife.
+
+## Other books by the authors
+[](https://www.packtpub.com/big-data-and-business-intelligence/getting-started-greenplum-big-data-analytics?utm_source=github&utm_medium=repository&utm_campaign=)
+
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
